@@ -46,12 +46,12 @@ Example output:
 
 ```js
 interpolate(
-  'Hi! I'm Choo Choo, but your name is way cooler, isn't it, {firstname}?',
+  'Hi! I\'m Choo Choo, but your name is way cooler, isn\'t it, {firstname}?',
   { firstname: 'John' },
   { leftDelimiter: '{', rightDelimiter: '}' }
 )
 
---->  Hi! I'm Choo Choo, but your name is way cooler, isn't it, John?
+// Result:  Hi! I'm Choo Choo, but your name is way cooler, isn't it, John?
 ```
 
 ```js
@@ -61,7 +61,7 @@ interpolate(
   { leftDelimiter: '__{', rightDelimiter: '}__' }
 );
 
----> Hi there Brecht, how is the weather in Belgium?
+// Result: Hi there Brecht, how is the weather in Belgium?
 ```
 
 ```js
@@ -71,5 +71,5 @@ interpolate(
   { leftDelimiter: '__{', rightDelimiter: '}__' }
 );
 
----> Hi there .
+// Result: Hi there .
 ```
