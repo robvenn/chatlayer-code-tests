@@ -11,9 +11,11 @@ An example EchoBot is set up here: https://chatbox.staging.chatlayer.ai/5ef5aabd
 
 ### Backend
 
-The backend contains the logic for the EchoBot. It should contain an endpoint that allows one to send a request containing a message. The EchoBot will respond by echoing that message back as the response.
+The backend is an API that contains the logic for the EchoBot. It allows one to send a request containing a message. The EchoBot will respond by echoing that message back as the response. 
 
-You may write the backend in any language, but JavaScript with Node.js is preferred.
+Use a protocol of your choosing. We recommend creating a REST API but you may use Websockets, GraphQL, ... as well.
+
+Write the backend in any language. Node.js (JavaScript) is preferred.
 
 Even though it may be a tiny API, be sure to provide everything you would expect from a production grade API.
 
