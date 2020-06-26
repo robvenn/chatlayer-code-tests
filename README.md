@@ -1,7 +1,13 @@
 # Chatlayer code tests
 
-Welcome to the Chatlayer code tests repo! This repo contains assignments which you may solve using any language, but JavaScript or TypeScript are preferred. You can find the assignments in the `assignments` folder. Each subfolder contains an `assignment.md` file with an in-depth explanation.
+Welcome to the Chatlayer code tests repo! This repo contains assignments which you may solve using any language, but JavaScript or TypeScript are preferred. You can find the assignments in the `assignments` folder. Each subfolder contains an `assignment.md` file with an in-depth explanation. 
 
-Feel free to clone this repo and use it as a starting point for your solutions.
+We expect you to complete both assignments. The `fullstack` assignment will take about 1h30m, the `interpolateSession` assignment should take around 30 minutes. Don't worry if you exceed these guidelines.
+
+Feel free to clone this repo and use it as a starting point for your solutions. 
+
+You may submit the result of these assignments as a repository on your own git-based account, or send the results as a ZIP file [piebut@on.sinch.com](mailto:piebut@on.sinch.com) and [malin.brand@sinch.com](mailto:malin.brand@sinch.com).
+
+If you have any questions, feel free to [brecar@on.sinch.com](mailto:brecar@on.sinch.com) .
 
 We're excited to see how you'll be tackling these. Good luck and have fun!
