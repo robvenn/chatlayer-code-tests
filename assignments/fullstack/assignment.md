@@ -1,7 +1,7 @@
 # Fullstack EchoBot
 
-We're all full stack developers at Chatlayer, meaning we're proficient in both frontend and backend development.
-This assignment will test your capabilities in creating a full stack application from scratch.
+We're all full-stack developers at Chatlayer, meaning we're proficient in both frontend and backend development.
+This assignment will test your capabilities in creating a full-stack application from scratch.
 
 ## Assignment
 
@@ -17,13 +17,13 @@ Use a protocol of your choosing. We recommend creating a REST API but you may us
 
 Write the backend in any language. Node.js (JavaScript) is preferred.
 
-Even though it may be a tiny API, be sure to provide everything you would expect from a production grade API.
+Even though it may be a tiny API, be sure to provide everything you would expect from a production-grade API.
 
 ### Frontend
 
 Build a chat widget that will allow the user to send a message to the EchoBot's backend.
 
-These are the minimal required components the frontend should consist:
+These are the minimum required components the frontend should consist:
 
 - a **text input field** for users to enter their expression
 - a **send button** allowing users to send the expression to the EchoBot
