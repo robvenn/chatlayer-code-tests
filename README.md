@@ -7,8 +7,6 @@ We expect you to complete both assignments. The `fullstack` assignment will take
 Feel free to clone this repo and use it as a starting point for your solutions. 
 
 You may submit the result of these assignments as a link to a **public** repository on your own git-based platform account, or send the results as a ZIP file. Submissions are to be sent through e-mail to:
-- [piebut@on.sinch.com](mailto:piebut@on.sinch.com) 
-- [malin.brand@sinch.com](mailto:malin.brand@sinch.com)
 - [brecar@on.sinch.com](mailto:brecar@on.sinch.com)
 
 If you have any questions, feel free to e-mail [brecar@on.sinch.com](mailto:brecar@on.sinch.com).
