@@ -6,7 +6,7 @@ This assignment will test your capabilities in creating a full-stack application
 
 The EchoBot is a tiny chatbot that repeats anything you say to it.
 
-An example EchoBot is set up here: https://chatbox.staging.chatlayer.ai/5ef5aabd99110809d2374df3?language=en
+An example EchoBot is set up here: https://chatbox.prod.europe-west1.gc.chatlayer.ai/6217a8ad4fb75aa96a814566?language=en
 
 ### Backend
 
