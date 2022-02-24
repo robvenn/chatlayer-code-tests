@@ -1,6 +1,5 @@
 # Fullstack EchoBot
 
-We're all full-stack developers at Chatlayer, meaning we're proficient in both frontend and backend development.
 This assignment will test your capabilities in creating a full-stack application from scratch.
 
 ## Assignment
