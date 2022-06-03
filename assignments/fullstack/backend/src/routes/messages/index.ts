@@ -1,7 +1,7 @@
 import { FastifyPluginAsync } from 'fastify';
 import { Static, Type } from '@sinclair/typebox';
 
-const MessagePostBody = Type.Required(
+const AddMessageRequestBodySchema = Type.Required(
 	Type.Object({
 		message: Type.String(),
 	}, {
@@ -9,16 +9,33 @@ const MessagePostBody = Type.Required(
 	}),
 );
 
-type MessagePostBodyType = Static<typeof MessagePostBody>;
+type AddMessageRequestBodyType = Static<typeof AddMessageRequestBodySchema>;
 
-const message: FastifyPluginAsync = async (fastify, opts): Promise<void> => {
-	fastify.post<{ Body: MessagePostBodyType; Reply: MessagePostBodyType }>(
+const GetMessageResponseBodySchema = Type.Required(
+	Type.Object({
+		message: Type.String(),
+	}, {
+		additionalProperties: false,
+	}),
+);
+
+type GetMessageResponseBodyType = Static<typeof GetMessageResponseBodySchema>;
+
+const message: FastifyPluginAsync = async (app, opts): Promise<void> => {
+	app.get(
+		'/',
+		async function (request, reply) {
+			return { messages: app.getMessages() };
+		},
+	);
+	app.post<{ Body: AddMessageRequestBodyType; Reply: GetMessageResponseBodyType }>(
 		'/', {
-			schema: { body: MessagePostBody },
+			schema: { body: AddMessageRequestBodySchema },
 		},
 		async function (request, reply) {
-			// const { message } = request.body;
-			return request.body;
+			const { message: originalMsg } = request.body;
+			app.addMessage({ message: originalMsg, sender: 'user' });
+			return app.addMessage({ message: originalMsg, sender: 'bot' });
 		},
 	);
 };
