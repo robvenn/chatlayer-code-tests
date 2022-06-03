@@ -1,0 +1,15 @@
+{
+  "name": "echo-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Solution for the full stack assignment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Venneman",
+  "license": "ISC",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}

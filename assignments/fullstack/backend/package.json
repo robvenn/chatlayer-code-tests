@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "@echo-bot/backend",
   "version": "1.0.0",
   "description": "Backend for the EchoBot API",
   "private": true,
