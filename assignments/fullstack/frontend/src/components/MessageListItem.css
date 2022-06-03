@@ -1,0 +1,23 @@
+
+.chat-message {
+	display: block;
+	padding: 1em;
+}
+
+.chat-message-bubble {
+	background-color: snow;
+	border: 1px solid rgba(149, 157, 165, 0.2);
+	border-radius: 0.5em;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	padding: 0.5em;
+}
+
+.chat-message--user {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.chat-message--bot {
+	display: flex;
+	justify-content: flex-start;
+}
