@@ -32,7 +32,7 @@ const interpolate = (value, session = {}, options = {}) => {
 		const l = match.length;
 		const variableName = match.substring(leftDelimiter.length, l - rightDelimiter.length);
 		const replacement = session[variableName] || '';
-		result = result.replace(match, replacement);
+		result = result.replaceAll(match, replacement);
 	});
 	return result;
 };
